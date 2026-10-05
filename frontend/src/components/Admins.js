@@ -111,7 +111,7 @@ export default function AdminDashboard() {
         // Handle not authenticated case
         return;
       }
-      const response = await fetch('http://localhost:5000/api/admin/profile', {
+      const response = await fetch('https://hospital-management-system-mern-main.onrender.com/api/admin/profile', {
         headers: {
           'Authorization': `Bearer ${token}`
         }
@@ -135,7 +135,7 @@ export default function AdminDashboard() {
       if (!token) {
         return;
       }
-      const response = await fetch('http://localhost:5000/api/admin/total-doctors', {
+      const response = await fetch('https://hospital-management-system-mern-main.onrender.com/api/admin/total-doctors', {
         headers: {
           'Authorization': `Bearer ${token}`
         }
@@ -157,7 +157,7 @@ export default function AdminDashboard() {
       if (!token) {
         return;
       }
-      const response = await fetch('http://localhost:5000/api/admin/total-patients', {
+      const response = await fetch('https://hospital-management-system-mern-main.onrender.com/api/admin/total-patients', {
         headers: {
           'Authorization': `Bearer ${token}`
         }

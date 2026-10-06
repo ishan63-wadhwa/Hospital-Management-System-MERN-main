@@ -130,7 +130,7 @@ const Home = () => {
 
       <footer className="bg-white py-6 border-t">
         <div className="container mx-auto px-4 flex items-center justify-between">
-          <p className="text-gray-600">&copy; 2024 Hospital Management. All rights reserved.</p>
+          <p className="text-gray-600">&copy; Hospital Management. All rights reserved.</p>
         </div>
       </footer>
     </div>
